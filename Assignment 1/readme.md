@@ -23,6 +23,11 @@ This web application replicates the core UI and functionalities of Google Sheets
 - **Dynamic Row/Column Management**.
 - **Drag Selection** for multiple cells.
 
+## Non-Functional Enhancements
+
+- **Security:** Basic input validation is implemented to prevent invalid data entry.
+- **Performance:** The application minimizes DOM updates by recalculating only when necessary, keeping the interface lightweight.
+
 ## Testing
 
 - Enter numbers or text into cells.
