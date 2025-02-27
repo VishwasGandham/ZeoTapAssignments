@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Google Sheets Mimic</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Google Sheets Mimic</h1>
+  </header>
+  <div class="toolbar">
+    <button id="boldBtn"><b>B</b></button>
+    <button id="italicBtn"><i>I</i></button>
+    <button id="addRowBtn">Add Row</button>
+    <button id="deleteRowBtn">Delete Row</button>
+    <button id="addColBtn">Add Column</button>
+    <button id="deleteColBtn">Delete Column</button>
+  </div>
+  <div class="formula-bar">
+    <input type="text" id="formulaInput" placeholder="Enter formula or value">
+    <button id="applyFormulaBtn">Apply</button>
+  </div>
+  <div class="sheet-container">
+    <table id="sheetTable">
+      <!-- Table header with column letters -->
+      <thead>
+        <tr>
+          <th></th>
+          <!-- Column letters will be generated dynamically -->
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Rows will be generated dynamically -->
+      </tbody>
+    </table>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
