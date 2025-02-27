@@ -19,6 +19,11 @@ This chatbot answers “how-to” questions about four Customer Data Platforms (
 - Provides links to official documentation for further information.
 - Uses basic keyword matching for responses.
 
+## Non-Functional Enhancements
+
+- **Security:** Input fields validate that queries are not empty and handle unexpected input gracefully.
+- **Performance:** The chatbot is designed with minimal processing delay, ensuring quick responses by using a simple keyword matching approach.
+
 ## Testing
 
 - Example: "How do I set up a new source in Segment?" should return a helpful response with a link to Segment’s documentation.
