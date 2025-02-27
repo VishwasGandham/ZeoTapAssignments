@@ -4,11 +4,11 @@ This repository contains two separate assignments for the ZeoTap application pro
 
 1. **Assignment 1: Google Sheets Mimic**  
    - A web-based spreadsheet application that replicates key UI and functionalities of Google Sheets.  
-   - Files are located in the [`assignment1`](./assignment1) folder.
+   - Files are located in the Assignment 1 folder.
 
 2. **Assignment 2: CDP Support Agent Chatbot**  
    - A chatbot that answers "how-to" questions about four Customer Data Platforms (Segment, mParticle, Lytics, Zeotap).  
-   - Files are located in the [`assignment2`](./assignment2) folder.
+   - Files are located in the Assignment 2 folder.
 
 ## How to Use
 
